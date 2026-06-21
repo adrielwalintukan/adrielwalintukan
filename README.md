@@ -13,7 +13,7 @@
 
 ### 🚀 Tentang Saya & Perjalanan Karir
 - 🎓 **Pendidikan:** Mahasiswa Sistem Informasi, Universitas Klabat (2023 — 2027).
-- 💼 **Saat ini:** Magang di **LLDIKTI XVI** mengembangkan sistem menggunakan Laravel, Blade, Vite, & PostgreSQL.
+- 💼 **Saat ini:** Magang di **LLDIKTI XVI** untuk mengembangkan sistem.
 - 🏆 **Pencapaian:** Memenangkan *Best Technical Excellence Award* (Proxo Coris 2026 — Kategori Mobile App Development).
 - 🌱 **Fokus Keahlian:** Mengintegrasikan AI ke dalam aplikasi modern, arsitektur perangkat lunak yang bersih, dan pengujian sistem.
 - 🎯 **Tujuan Karir:** Menjadi profesional yang menciptakan solusi digital berdampak dan memecahkan masalah kompleks melalui teknologi.
@@ -45,15 +45,6 @@
   <img src="https://img.shields.io/badge/Podman-892CA0?style=for-the-badge&logo=podman&logoColor=white" alt="Podman"/>
   <img src="https://img.shields.io/badge/Software_Testing-00599C?style=for-the-badge&logo=testing-library&logoColor=white" alt="Software Testing"/>
 </p>
-
-<br>
-
-### 🏆 GitHub Trophies
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=adrielwalintukan&theme=radical&row=1&column=7&margin-w=15&margin-h=15&no-frame=true" alt="Trophies" />
-</div>
-
-<br>
 
 ### 📊 GitHub Analytics
 <div align="center">
