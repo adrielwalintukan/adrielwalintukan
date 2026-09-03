@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <defs>
+    <linearGradient id="connectCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f0ff" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+
+    <filter id="connectGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <style>
+      @keyframes radarWave {
+        0% { r: 12px; opacity: 0.9; }
+        100% { r: 42px; opacity: 0; }
+      }
+      @keyframes nodePulse {
+        0%, 100% { transform: scale(1); opacity: 0.8; }
+        50% { transform: scale(1.15); opacity: 1; }
+      }
+      .wave-1 {
+        animation: radarWave 2.4s cubic-bezier(0.1, 0.5, 0.8, 1) infinite;
+        transform-origin: 50px 50px;
+      }
+      .wave-2 {
+        animation: radarWave 2.4s cubic-bezier(0.1, 0.5, 0.8, 1) infinite 1.2s;
+        transform-origin: 50px 50px;
+      }
+      .center-core {
+        animation: nodePulse 1.8s ease-in-out infinite;
+        transform-origin: 50px 50px;
+      }
+    </style>
+  </defs>
+
+  <!-- Expanding Radar Pulse Rings -->
+  <circle class="wave-1" cx="50" cy="50" r="16" fill="none" stroke="#00f0ff" stroke-width="2" filter="url(#connectGlow)" />
+  <circle class="wave-2" cx="50" cy="50" r="16" fill="none" stroke="#38bdf8" stroke-width="2" filter="url(#connectGlow)" />
+
+  <!-- Outer HUD Ring -->
+  <circle cx="50" cy="50" r="38" fill="none" stroke="#1e293b" stroke-width="2" stroke-dasharray="8 8" />
+
+  <!-- Network Interconnect Lines -->
+  <line x1="50" y1="50" x2="22" y2="30" stroke="#00f0ff" stroke-width="2" stroke-dasharray="3 3" opacity="0.7" />
+  <line x1="50" y1="50" x2="78" y2="30" stroke="#00f0ff" stroke-width="2" stroke-dasharray="3 3" opacity="0.7" />
+  <line x1="50" y1="50" x2="50" y2="82" stroke="#00f0ff" stroke-width="2" stroke-dasharray="3 3" opacity="0.7" />
+
+  <!-- Orbit Nodes -->
+  <circle cx="22" cy="30" r="5" fill="#0b1322" stroke="#00f0ff" stroke-width="2.5" filter="url(#connectGlow)" />
+  <circle cx="78" cy="30" r="5" fill="#0b1322" stroke="#00f0ff" stroke-width="2.5" filter="url(#connectGlow)" />
+  <circle cx="50" cy="82" r="5" fill="#0b1322" stroke="#00f0ff" stroke-width="2.5" filter="url(#connectGlow)" />
+
+  <!-- Center Glowing Hub -->
+  <g class="center-core">
+    <circle cx="50" cy="50" r="12" fill="#0b1726" stroke="url(#connectCyan)" stroke-width="3.5" filter="url(#connectGlow)" />
+    <circle cx="50" cy="50" r="5" fill="#00f0ff" filter="url(#connectGlow)" />
+  </g>
+</svg>

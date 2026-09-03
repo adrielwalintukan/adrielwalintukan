@@ -20,7 +20,7 @@
 <br/>
 
 <!-- About Me Section -->
-<h2><img src="assets/rocket.png" width="30" height="30" alt="Rocket icon" /> &nbsp;Developer Architecture</h2>
+<h2><img src="assets/icons/rocket.svg" width="32" height="32" alt="Rocket icon" /> &nbsp;Developer Architecture</h2>
 
 ```typescript
 const adriel: FullstackArchitect = {
@@ -41,13 +41,13 @@ const adriel: FullstackArchitect = {
 };
 ```
 
-<h2><img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="30" alt="Animated skills icon" /> &nbsp;Tools of the Trade</h2>
+<h2><img src="assets/icons/code.gif" width="32" height="32" alt="Animated Code icon" /> &nbsp;Tools of the Trade</h2>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,vite,python,laravel,nodejs,postgres,supabase,git,docker,linux,tailwind&perline=14" alt="JavaScript, TypeScript, React, Next.js, Vite, Python, Laravel, Node.js, PostgreSQL, Supabase, Git, Docker, Linux, Tailwind CSS" />
 </p>
 
-<h2><img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="30" alt="Animated fire icon" /> &nbsp;GitHub Activity &amp; Telemetry</h2>
+<h2><img src="assets/icons/activity.svg" width="32" height="32" alt="Activity icon" /> &nbsp;GitHub Activity &amp; Telemetry</h2>
 
 <p align="center">
   <img width="88%" src="https://github-profile-summary-cards-mocha.vercel.app/api/cards/profile-details?username=adrielwalintukan&theme=github_dark" alt="Adriel's contribution timeline and profile details" /><br/>
@@ -55,7 +55,7 @@ const adriel: FullstackArchitect = {
   <img width="48%" src="https://github-profile-summary-cards-mocha.vercel.app/api/cards/most-commit-language?username=adrielwalintukan&theme=github_dark" alt="Adriel's most used languages by commit" />
 </p>
 
-<h2><img src="https://user-images.githubusercontent.com/74038190/216120981-b9507c36-0e04-4469-8e27-c99271b45ba5.png" width="30" alt="Animated handshake icon" /> &nbsp;Let's Connect</h2>
+<h2><img src="assets/icons/connect.svg" width="32" height="32" alt="Connect icon" /> &nbsp;Let's Connect</h2>
 
 <p align="center">
   <a href="https://adrielwalintukan.my.id"><img width="100%" src="assets/contact-command-center.svg" alt="Open Adriel's portfolio from the contact command center" /></a>
