@@ -24,25 +24,22 @@
 
 ```typescript
 const adriel: FullstackArchitect = {
-  name:        "Adriel Walintukan",
-  role:        "Fullstack Developer & AI Integration Specialist",
+  name: "Adriel Walintukan",
+  role: "Fullstack Developer & AI Integration Specialist",
   institution: "Universitas Klabat (UNKLAB) [2023 — 2027] 🎓",
-  internship:  "LLDIKTI Wilayah XVI (System Development) 💼",
-  award:       "Best Technical Excellence Award (Proxo Coris 2026) 🏆",
+  program: "Sistem Informasi",
+  internship: "LLDIKTI Wilayah XVI (System Development & Rekayasa Sistem Informasi) 💼",
+  award: "Best Technical Excellence Award (Proxo Coris 2026 - Mobile App Development) 🏆",
+  portfolio: "https://adrielwalintukan.my.id 🌐",
+  focus: "Integrasi Artificial Intelligence (AI) ke dalam sistem web & mobile performa tinggi 🚀",
   specialties: {
-    core:      ["AI Integration", "Clean Architecture", "Software Testing"],
-    frontend:  ["React Native", "Next.js", "TypeScript", "Vite", "Tailwind CSS"],
-    backend:   ["Python", "Node.js", "Laravel", "PostgreSQL", "Supabase", "Convex"],
+    core: ["AI Integration", "Clean Architecture", "Software Testing"],
+    frontend: ["React Native", "Next.js", "TypeScript", "Vite", "Tailwind CSS"],
+    backend: ["Python", "Node.js", "Laravel", "PostgreSQL", "Supabase", "Convex"],
   },
-  motto:       "Crafting intelligent, high-impact digital solutions that scale ⚡",
+  motto: "Crafting intelligent, high-impact digital solutions that scale ⚡",
 };
 ```
-
-- 🌐 Portofolio Utama: **[adrielwalintukan.my.id](https://adrielwalintukan.my.id)**
-- 🎓 Sedang menempuh studi di **[Universitas Klabat (UNKLAB)](https://www.unklab.ac.id/)** — Program Studi Sistem Informasi
-- 💼 Magang di **LLDIKTI Wilayah XVI** untuk rekayasa dan pengembangan sistem informasi
-- 🏆 Pemenang *Best Technical Excellence Award* pada kompetisi nasional **Proxo Coris 2026** (Kategori Mobile App Development)
-- 🚀 Berfokus pada integrasi Artificial Intelligence (AI) ke dalam sistem web & mobile performa tinggi
 
 <h2><img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="30" alt="Animated skills icon" /> &nbsp;Tools of the Trade</h2>
 
