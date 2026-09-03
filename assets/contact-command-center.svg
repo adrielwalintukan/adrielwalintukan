@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="190" viewBox="0 0 960 190" role="img" aria-labelledby="title desc">
+  <title id="title">Adriel Contact Command Center</title>
+  <desc id="desc">A dark terminal window showing Adriel's portfolio command, social connection command, and online status.</desc>
+  <rect x="1" y="1" width="958" height="188" rx="16" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+  <path d="M1 48h958" stroke="#30363d" stroke-width="2"/>
+  <circle cx="25" cy="24" r="6" fill="#ff7b72"/>
+  <circle cx="47" cy="24" r="6" fill="#d29922"/>
+  <circle cx="69" cy="24" r="6" fill="#3fb950"/>
+  <text x="94" y="30" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="16">adriel@unklab:~</text>
+  <circle cx="830" cy="24" r="5" fill="#3fb950"/>
+  <text x="846" y="30" fill="#7ee787" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14" font-weight="700">AVAILABLE</text>
+  <text x="28" y="92" fill="#7ee787" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="21">$</text>
+  <text x="52" y="92" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="21">open</text>
+  <text x="112" y="92" fill="#79c0ff" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="21" font-weight="700">adrielwalintukan.my.id ↗</text>
+  <rect x="28" y="111" width="904" height="1" fill="#21262d"/>
+  <text x="28" y="151" fill="#7ee787" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="18">$</text>
+  <text x="52" y="151" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="18">connect</text>
+  <text x="136" y="151" fill="#58a6ff" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="18">--linkedin</text>
+  <text x="258" y="151" fill="#ea4335" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="18">--email</text>
+  <text x="350" y="151" fill="#7ee787" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="18">--github</text>
+  <text x="28" y="174" fill="#484f58" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12">integrating AI · fullstack architecture · building impactful digital solutions</text>
+</svg>
