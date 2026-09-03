@@ -6,15 +6,15 @@
 <!-- Live Typing Animation & Status Badges -->
 <div align="center">
   <a href="https://github.com/adrielwalintukan">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1000&color=00F0FF&center=true&vCenter=true&random=false&width=620&lines=Hi+there%2C+I'm+Adriel+Walintukan+%E2%9A%A1;Fullstack+Developer+%26+AI+Specialist+%F0%9F%A4%96;Winner+of+Best+Technical+Excellence+Award+2026+%F0%9F%8F%86;Building+Impactful+Web+%26+Mobile+Systems+%F0%9F%9A%80;Information+Systems+%40+Universitas+Klabat+%F0%9F%8E%93" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1000&color=00F0FF&center=true&vCenter=true&random=false&width=620&lines=%3E_%20Hi%20there%2C%20I%27m%20Adriel%20Walintukan;%3E_%20Fullstack%20Developer%20%26%20AI%20Specialist;%3E_%20Winner%3A%20Best%20Technical%20Excellence%20Award%202026;%3E_%20Building%20Impactful%20Web%20%26%20Mobile%20Systems;%3E_%20Information%20Systems%20%40%20Universitas%20Klabat" alt="Typing SVG" />
   </a>
 
   <br/><br/>
 
-  <img src="https://img.shields.io/badge/%F0%9F%8E%93%20Universitas%20Klabat-Airmadidi-007ACC?style=for-the-badge" alt="UNKLAB" />&nbsp;
-  <img src="https://img.shields.io/badge/%F0%9F%92%BC%20LLDIKTI%20XVI-System%20Dev-0284C7?style=for-the-badge" alt="LLDIKTI XVI" />&nbsp;
-  <img src="https://img.shields.io/badge/%F0%9F%8F%86%20Proxo%20Coris%202026-Best%20Tech%20Award-D97706?style=for-the-badge" alt="Award" />&nbsp;
-  <img src="https://img.shields.io/badge/%E2%9A%A1%20Open%20To-Collaborate-10B981?style=for-the-badge" alt="Open to collaborate" />
+  <img src="https://img.shields.io/badge/Universitas%20Klabat-Airmadidi-007ACC?style=for-the-badge" alt="UNKLAB" />&nbsp;
+  <img src="https://img.shields.io/badge/LLDIKTI%20XVI-System%20Dev-0284C7?style=for-the-badge" alt="LLDIKTI XVI" />&nbsp;
+  <img src="https://img.shields.io/badge/Proxo%20Coris%202026-Best%20Tech%20Award-D97706?style=for-the-badge" alt="Award" />&nbsp;
+  <img src="https://img.shields.io/badge/Open%20To-Collaborate-10B981?style=for-the-badge" alt="Open to collaborate" />
 </div>
 
 <br/>
@@ -26,18 +26,18 @@
 const adriel: FullstackArchitect = {
   name: "Adriel Walintukan",
   role: "Fullstack Developer & AI Integration Specialist",
-  institution: "Universitas Klabat (UNKLAB) [2023 — 2027] 🎓",
+  institution: "Universitas Klabat (UNKLAB) [2023 — 2027]",
   program: "Sistem Informasi",
-  internship: "LLDIKTI Wilayah XVI (System Development & Rekayasa Sistem Informasi) 💼",
-  award: "Best Technical Excellence Award (Proxo Coris 2026 - Mobile App Development) 🏆",
-  portfolio: "https://adrielwalintukan.my.id 🌐",
-  focus: "Integrasi Artificial Intelligence (AI) ke dalam sistem web & mobile performa tinggi 🚀",
+  internship: "LLDIKTI Wilayah XVI (System Development & Rekayasa Sistem Informasi)",
+  award: "Best Technical Excellence Award (Proxo Coris 2026 - Mobile App Development)",
+  portfolio: "https://adrielwalintukan.my.id",
+  focus: "Integrasi Artificial Intelligence (AI) ke dalam sistem web & mobile performa tinggi",
   specialties: {
     core: ["AI Integration", "Clean Architecture", "Software Testing"],
     frontend: ["React Native", "Next.js", "TypeScript", "Vite", "Tailwind CSS"],
     backend: ["Python", "Node.js", "Laravel", "PostgreSQL", "Supabase", "Convex"],
   },
-  motto: "Crafting intelligent, high-impact digital solutions that scale ⚡",
+  motto: "Crafting intelligent, high-impact digital solutions that scale",
 };
 ```
 
