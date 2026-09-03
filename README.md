@@ -20,7 +20,7 @@
 <br/>
 
 <!-- About Me Section -->
-<h2><img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="30" alt="Animated rocket icon" /> &nbsp;Developer Architecture</h2>
+<h2><img src="assets/rocket.png" width="30" height="30" alt="Rocket icon" /> &nbsp;Developer Architecture</h2>
 
 ```typescript
 const adriel: FullstackArchitect = {
