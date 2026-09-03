@@ -1,53 +1,44 @@
-<h1 align="center">Hi 👋, I'm Adriel Walintukan</h1>
-<h3 align="center">Information Systems Student & Fullstack Developer</h3>
+<p align="center">
+  <img src="assets/banner.gif" width="100%" alt="Adriel Walintukan - Fullstack Developer & AI Integration" />
+</p>
+
+<h2><img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="30" alt="Animated rocket icon" /> About Me & Journey</h2>
+
+<p>
+  Mahasiswa Sistem Informasi di <b>Universitas Klabat (UNKLAB)</b> yang berfokus dalam membangun solusi digital modern melalui <b>Integrasi AI</b>, <b>Pengembangan Web & Mobile</b>, serta <b>Software Testing</b> untuk menciptakan pengalaman pengguna yang imersif dan aplikasi berskala tinggi.
+</p>
+
+- 🎓 **Pendidikan:** Mahasiswa Sistem Informasi, **Universitas Klabat (UNKLAB)** (2023 — 2027)
+- 💼 **Saat ini:** Magang di **LLDIKTI Wilayah XVI** untuk pengembangan sistem
+- 🏆 **Pencapaian:** Pemenang *Best Technical Excellence Award* (Proxo Coris 2026 — Kategori Mobile App Development)
+- 🌱 **Fokus Keahlian:** Integrasi AI pada aplikasi modern, arsitektur perangkat lunak bersih, dan pengujian sistem
+- 🎯 **Tujuan Karir:** Menciptakan solusi digital yang berdampak nyata dan memecahkan tantangan teknologi kompleks
+
+<h2><img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="30" alt="Animated skills icon" /> Tools of the Trade</h2>
 
 <p align="center">
-  Mahasiswa Sistem Informasi di Universitas Klabat (UNKLAB) yang bersemangat dalam membangun solusi digital modern. Fokus utama saya mencakup <b>Integrasi AI</b>, <b>Pengembangan Web & Mobile</b>, serta <b>Software Testing</b> untuk menciptakan pengalaman pengguna yang imersif dan aplikasi berskala tinggi.
+  <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,vite,python,laravel,nodejs,postgres,supabase,git,docker,linux,tailwind&perline=14" alt="JavaScript, TypeScript, React, Next.js, Vite, Python, Laravel, Node.js, PostgreSQL, Supabase, Git, Docker, Linux, Tailwind CSS" />
 </p>
 
-<div align="center">
-  <i>✨ Available for new opportunities! ✨</i>
-</div>
+<h2><img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="30" alt="Animated fire icon" /> GitHub Activity</h2>
 
-<hr>
-
-### 🚀 Tentang Saya & Perjalanan Karir
-- 🎓 **Pendidikan:** Mahasiswa Sistem Informasi, Universitas Klabat (2023 — 2027).
-- 💼 **Saat ini:** Magang di **LLDIKTI XVI** untuk mengembangkan sistem.
-- 🏆 **Pencapaian:** Memenangkan *Best Technical Excellence Award* (Proxo Coris 2026 — Kategori Mobile App Development).
-- 🌱 **Fokus Keahlian:** Mengintegrasikan AI ke dalam aplikasi modern, arsitektur perangkat lunak yang bersih, dan pengujian sistem.
-- 🎯 **Tujuan Karir:** Menjadi profesional yang menciptakan solusi digital berdampak dan memecahkan masalah kompleks melalui teknologi.
-
-### 🛠️ Tech Stack & Tools
-
-**Frontend & Mobile**
-<p align="left">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
-  <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native"/>
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js"/>
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite"/>
+<p align="center">
+  <img width="88%" src="https://github-profile-summary-cards-mocha.vercel.app/api/cards/profile-details?username=adrielwalintukan&theme=github_dark" alt="Adriel's contribution timeline and profile details" /><br/>
+  <img width="48%" src="https://github-profile-summary-cards-mocha.vercel.app/api/cards/stats?username=adrielwalintukan&theme=github_dark" alt="Adriel's GitHub statistics" />
+  <img width="48%" src="https://github-profile-summary-cards-mocha.vercel.app/api/cards/most-commit-language?username=adrielwalintukan&theme=github_dark" alt="Adriel's most used languages by commit" />
 </p>
 
-**Backend & Database**
-<p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel"/>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js"/>
-  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
-  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase"/>
-  <img src="https://img.shields.io/badge/Convex-FF7043?style=for-the-badge&logo=convex&logoColor=white" alt="Convex"/>
+<h2><img src="https://user-images.githubusercontent.com/74038190/216120981-b9507c36-0e04-4469-8e27-c99271b45ba5.png" width="30" alt="Animated handshake icon" /> Let's Connect</h2>
+
+<p align="center">
+  <a href="https://adrielwalintukan.my.id"><img width="100%" src="assets/contact-command-center.svg" alt="Open Adriel's portfolio from the contact command center" /></a>
 </p>
 
-**Tools & Others**
-<p align="left">
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
-  <img src="https://img.shields.io/badge/Podman-892CA0?style=for-the-badge&logo=podman&logoColor=white" alt="Podman"/>
-  <img src="https://img.shields.io/badge/Software_Testing-00599C?style=for-the-badge&logo=testing-library&logoColor=white" alt="Software Testing"/>
+<p align="center">
+  <a href="https://adrielwalintukan.my.id" target="_blank"><img width="32" src="https://cdn.simpleicons.org/googlechrome/79C0FF" alt="Portfolio" /></a>&nbsp;&nbsp;
+  <a href="https://linkedin.com/in/adrielwalintukan" target="_blank"><img width="32" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/linkedin/linkedin-original.svg" alt="LinkedIn" /></a>&nbsp;&nbsp;
+  <a href="mailto:adrielwalintukan27@gmail.com"><img width="32" src="https://cdn.simpleicons.org/gmail/EA4335" alt="Email" /></a>&nbsp;&nbsp;
+  <a href="https://github.com/adrielwalintukan"><img width="32" src="https://cdn.simpleicons.org/github/C9D1D9" alt="GitHub" /></a>
 </p>
 
-### 📊 GitHub Analytics
-<div align="center">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=adrielwalintukan&show_icons=true&theme=radical&hide_border=true" alt="Adriel's Stats" />
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=adrielwalintukan&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
-</div>
+<p align="center"><sub>build · learn · ship · repeat</sub></p>
