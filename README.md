@@ -1,6 +1,6 @@
 <!-- Cyber-AI Animated Hero Banner -->
 <p align="center">
-  <img width="100%" src="assets/cyber-banner.svg" alt="Adriel Walintukan - Cyber-AI Hologram Banner" />
+  <img width="100%" src="assets/cyber-banner.gif" alt="Adriel Walintukan - Cyber-AI Hologram Banner" />
 </p>
 
 <!-- Live Typing Animation & Status Badges -->
