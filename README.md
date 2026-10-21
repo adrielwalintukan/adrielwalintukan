@@ -1,71 +1,40 @@
-<!-- Cyber-AI Animated Hero Banner -->
-<p align="center">
-  <img width="100%" src="assets/cyber-banner.gif" alt="Adriel Walintukan - Cyber-AI Hologram Banner" />
+<a href="https://adrielwalintukan.my.id">
+  <img width="100%" src="assets/hero.svg" alt="Adriel Walintukan, AI-powered web and mobile developer based in Manado, Indonesia" />
+</a>
+
+<br />
+
+I'm Adriel, an Information Systems student at [Universitas Klabat](https://unklab.ac.id) (2023–2027). I build web and mobile apps, usually with an AI feature at the core, and I care about clean architecture and testing as much as how things look.
+
+- **Now** · System development intern at LLDIKTI Wilayah XVI
+- **Recently** · Best Technical Excellence Award, Proxo Coris 2026 (mobile app development)
+- **Open to** · internships and collaborations, on web, mobile or AI projects
+
+<br />
+
+### Selected work
+
+| | Project | What it is | |
+|---|---|---|---|
+| `01` | **DailyBoost AI** | Mobile productivity app: goals, budgeting and an AI chat assistant | [Code ↗](https://github.com/adrielwalintukan/DailyBoostAI_MAD) |
+| `02` | **AI Interview Simulator** | Practice interviews with an AI interviewer that keeps the conversation going | [Code ↗](https://github.com/adrielwalintukan/interviewAI) |
+| `03` | **KostFinder UNKLAB** | Boarding house search and booking for students, with a price calculator | [Case ↗](https://adrielwalintukan.my.id/#projects) |
+
+More projects, with screenshots, on [my portfolio](https://adrielwalintukan.my.id/#projects).
+
+<br />
+
+<img width="100%" src="assets/stack.svg" alt="Skills. Backend and AI: Python, FastAPI, Google Gemini, REST API, Node.js, PostgreSQL, Laravel, Supabase, Convex, SQL. Frontend and Mobile: React Native, Expo, Next.js, TypeScript, JavaScript, Vite, Blade. Tools and Design: Git, GitHub, Figma, Software Testing." />
+
+<br /><br />
+
+<a href="mailto:adrielwalintukan27@gmail.com">
+  <img width="100%" src="assets/marquee.svg" alt="Let's build something" />
+</a>
+
+<p>
+  <a href="https://adrielwalintukan.my.id"><b>Portfolio</b></a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/adriel-walintukan-383032332/"><b>LinkedIn</b></a> &nbsp;·&nbsp;
+  <a href="mailto:adrielwalintukan27@gmail.com"><b>adrielwalintukan27@gmail.com</b></a> &nbsp;·&nbsp;
+  Manado, Indonesia (WITA, UTC+8)
 </p>
-
-<!-- Live Typing Animation & Status Badges -->
-<div align="center">
-  <a href="https://github.com/adrielwalintukan">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1000&color=00F0FF&center=true&vCenter=true&random=false&width=620&lines=%3E_%20Hi%20there%2C%20I%27m%20Adriel%20Walintukan;%3E_%20Fullstack%20Developer%20%26%20AI%20Specialist;%3E_%20Winner%3A%20Best%20Technical%20Excellence%20Award%202026;%3E_%20Building%20Impactful%20Web%20%26%20Mobile%20Systems;%3E_%20Information%20Systems%20%40%20Universitas%20Klabat" alt="Typing SVG" />
-  </a>
-
-  <br/><br/>
-
-  <img src="https://img.shields.io/badge/Universitas%20Klabat-Airmadidi-007ACC?style=for-the-badge" alt="UNKLAB" />&nbsp;
-  <img src="https://img.shields.io/badge/LLDIKTI%20XVI-System%20Dev-0284C7?style=for-the-badge" alt="LLDIKTI XVI" />&nbsp;
-  <img src="https://img.shields.io/badge/Proxo%20Coris%202026-Best%20Tech%20Award-D97706?style=for-the-badge" alt="Award" />&nbsp;
-  <img src="https://img.shields.io/badge/Open%20To-Collaborate-10B981?style=for-the-badge" alt="Open to collaborate" />
-</div>
-
-<br/>
-
-<!-- About Me Section -->
-<h2><img src="assets/icons/rocket.svg" width="32" height="32" alt="Rocket icon" /> &nbsp;Developer Architecture</h2>
-
-```typescript
-const adriel: FullstackArchitect = {
-  name: "Adriel Walintukan",
-  role: "Fullstack Developer & AI Integration Specialist",
-  institution: "Universitas Klabat (UNKLAB) [2023 — 2027]",
-  program: "Sistem Informasi",
-  internship: "LLDIKTI Wilayah XVI (System Development & Rekayasa Sistem Informasi)",
-  award: "Best Technical Excellence Award (Proxo Coris 2026 - Mobile App Development)",
-  portfolio: "https://adrielwalintukan.my.id",
-  focus: "Integrasi Artificial Intelligence (AI) ke dalam sistem web & mobile performa tinggi",
-  specialties: {
-    core: ["AI Integration", "Clean Architecture", "Software Testing"],
-    frontend: ["React Native", "Next.js", "TypeScript", "Vite", "Tailwind CSS"],
-    backend: ["Python", "Node.js", "Laravel", "PostgreSQL", "Supabase", "Convex"],
-  },
-  motto: "Crafting intelligent, high-impact digital solutions that scale",
-};
-```
-
-<h2><img src="assets/icons/code.gif" width="32" height="32" alt="Animated Code icon" /> &nbsp;Tools of the Trade</h2>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,vite,python,laravel,nodejs,postgres,supabase,git,docker,linux,tailwind&perline=14" alt="JavaScript, TypeScript, React, Next.js, Vite, Python, Laravel, Node.js, PostgreSQL, Supabase, Git, Docker, Linux, Tailwind CSS" />
-</p>
-
-<h2><img src="assets/icons/activity.svg" width="32" height="32" alt="Activity icon" /> &nbsp;GitHub Activity &amp; Telemetry</h2>
-
-<p align="center">
-  <img width="88%" src="https://github-profile-summary-cards-mocha.vercel.app/api/cards/profile-details?username=adrielwalintukan&theme=github_dark" alt="Adriel's contribution timeline and profile details" /><br/>
-  <img width="48%" src="https://github-profile-summary-cards-mocha.vercel.app/api/cards/stats?username=adrielwalintukan&theme=github_dark" alt="Adriel's GitHub statistics" />
-  <img width="48%" src="https://github-profile-summary-cards-mocha.vercel.app/api/cards/most-commit-language?username=adrielwalintukan&theme=github_dark" alt="Adriel's most used languages by commit" />
-</p>
-
-<h2><img src="assets/icons/connect.svg" width="32" height="32" alt="Connect icon" /> &nbsp;Let's Connect</h2>
-
-<p align="center">
-  <a href="https://adrielwalintukan.my.id"><img width="100%" src="assets/contact-command-center.svg" alt="Open Adriel's portfolio from the contact command center" /></a>
-</p>
-
-<p align="center">
-  <a href="https://adrielwalintukan.my.id" target="_blank"><img width="32" src="https://cdn.simpleicons.org/googlechrome/79C0FF" alt="Portfolio" /></a>&nbsp;&nbsp;
-  <a href="https://linkedin.com/in/adrielwalintukan" target="_blank"><img width="32" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/linkedin/linkedin-original.svg" alt="LinkedIn" /></a>&nbsp;&nbsp;
-  <a href="mailto:adrielwalintukan27@gmail.com"><img width="32" src="https://cdn.simpleicons.org/gmail/EA4335" alt="Email" /></a>&nbsp;&nbsp;
-  <a href="https://github.com/adrielwalintukan"><img width="32" src="https://cdn.simpleicons.org/github/C9D1D9" alt="GitHub" /></a>
-</p>
-
-<p align="center"><sub>integrating AI · fullstack architecture · building impactful digital solutions</sub></p>
