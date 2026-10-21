@@ -28,6 +28,10 @@ More projects, with screenshots, on [my portfolio](https://adrielwalintukan.my.i
 
 <br /><br />
 
+<img width="100%" src="assets/stats.svg" alt="GitHub activity: contributions and commits in the last 12 months, pull requests, public repos, stars, a contribution heatmap and top languages" />
+
+<br /><br />
+
 <a href="mailto:adrielwalintukan27@gmail.com">
   <img width="100%" src="assets/marquee.svg" alt="Let's build something" />
 </a>
