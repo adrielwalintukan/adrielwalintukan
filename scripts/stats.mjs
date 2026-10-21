@@ -1,9 +1,11 @@
-// Renders assets/stats.svg (GitHub activity) in the portfolio's style: numbers, a
-// contribution heatmap and top languages. Run by .github/workflows/stats.yml every day.
+// Renders assets/stats.svg (GitHub activity) in the portfolio's style: numbers and
+// top languages. Run by .github/workflows/stats.yml every day.
 // usage: GITHUB_TOKEN=... node scripts/stats.mjs [login]
 import fs from 'node:fs'
 
 const LOGIN = process.argv[2] || 'adrielwalintukan'
+// repos that are not my own work (copied/imported projects) stay out of every number
+const EXCLUDE = new Set(['hexstrike-ai'])
 const TOKEN = process.env.GITHUB_TOKEN
 if (!TOKEN) throw new Error('GITHUB_TOKEN is required')
 
@@ -15,11 +17,11 @@ const query = `query($login: String!) {
     pullRequests { totalCount }
     repositories(ownerAffiliations: OWNER, isFork: false, privacy: PUBLIC, first: 100) {
       totalCount
-      nodes { stargazerCount languages(first: 10, orderBy: { field: SIZE, direction: DESC }) { edges { size node { name } } } }
+      nodes { name stargazerCount languages(first: 10, orderBy: { field: SIZE, direction: DESC }) { edges { size node { name } } } }
     }
     contributionsCollection {
       totalCommitContributions
-      contributionCalendar { totalContributions weeks { contributionDays { contributionLevel } } }
+      contributionCalendar { totalContributions }
     }
   }
 }`
@@ -33,9 +35,10 @@ if (errors || !data?.user) throw new Error(`GitHub API: ${JSON.stringify(errors 
 const u = data.user
 const cal = u.contributionsCollection.contributionCalendar
 
-const stars = u.repositories.nodes.reduce((n, r) => n + r.stargazerCount, 0)
+const repos = u.repositories.nodes.filter((r) => !EXCLUDE.has(r.name))
+const stars = repos.reduce((n, r) => n + r.stargazerCount, 0)
 const bytes = {}
-for (const r of u.repositories.nodes) for (const e of r.languages.edges) bytes[e.node.name] = (bytes[e.node.name] ?? 0) + e.size
+for (const r of repos) for (const e of r.languages.edges) bytes[e.node.name] = (bytes[e.node.name] ?? 0) + e.size
 const total = Object.values(bytes).reduce((a, b) => a + b, 0) || 1
 const ranked = Object.entries(bytes).sort((a, b) => b[1] - a[1])
 const langs = ranked.slice(0, 5).map(([name, b]) => ({ name, pct: (b / total) * 100 }))
@@ -64,7 +67,7 @@ const numbers = [
   ['Contributions', cal.totalContributions, '12 mo'],
   ['Commits', u.contributionsCollection.totalCommitContributions, '12 mo'],
   ['Pull requests', u.pullRequests.totalCount, 'all time'],
-  ['Public repos', u.repositories.totalCount, 'no forks'],
+  ['Public repos', repos.length, 'no forks'],
   ['Stars earned', stars, 'all repos'],
 ]
 const cellW = (IW - 4 * 24) / 5
@@ -81,26 +84,9 @@ const numberCells = numbers
   })
   .join('\n')
 
-// heatmap: one column per week, red intensity per GitHub quartile
-const LEVEL = { NONE: [C.surface, 1], FIRST_QUARTILE: [C.red, 0.3], SECOND_QUARTILE: [C.red, 0.55], THIRD_QUARTILE: [C.red, 0.8], FOURTH_QUARTILE: [C.red, 1] }
-const weeks = cal.weeks.slice(-53)
-const step = IW / weeks.length, cell = step - 4
-const heatY = 336
-const heat = weeks
-  .map((w, wi) =>
-    w.contributionDays
-      .map((d, di) => {
-        const [fill, op] = LEVEL[d.contributionLevel] ?? LEVEL.NONE
-        return `<rect x="${(X + wi * step).toFixed(1)}" y="${(heatY + di * step).toFixed(1)}" width="${cell.toFixed(1)}" height="${cell.toFixed(1)}" rx="3" fill="${fill}"${op < 1 ? ` fill-opacity="${op}"` : ''}/>`
-      })
-      .join('')
-  )
-  .join('\n')
-const heatBottom = heatY + 7 * step
-
 // languages: one stacked bar + legend
 const SHADES = [C.red, '#ff8a94', C.paper, C.muted, '#55524d', '#34353b']
-const langY = heatBottom + 62
+const langY = numY + 124 + 82
 let acc = 0
 const bar = langs
   .map((l, i) => {
@@ -125,25 +111,19 @@ const H = Math.round(langY + 92)
 const updated = new Date().toISOString().slice(0, 10)
 
 const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}">
-<title>GitHub activity: ${fmt(cal.totalContributions)} contributions in the last 12 months, ${fmt(u.repositories.totalCount)} public repos, top language ${esc(langs[0]?.name ?? 'n/a')}</title>
+<title>GitHub activity: ${fmt(cal.totalContributions)} contributions in the last 12 months, ${fmt(repos.length)} public repos, top language ${esc(langs[0]?.name ?? 'n/a')}</title>
 <style>${fonts}
 .d{font-family:'Big Shoulders Display';font-weight:900;text-transform:uppercase}
 .s{font-family:Geist;font-weight:500}
 .m{font-family:'JetBrains Mono';font-weight:500;text-transform:uppercase;letter-spacing:.12em}
 .fade{animation:fade .8s ease both}
-.sweep{animation:sweep 1.4s cubic-bezier(.16,1,.3,1) both}
 @keyframes fade{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
-@keyframes sweep{from{clip-path:inset(0 100% 0 0)}to{clip-path:inset(0 0 0 0)}}
-@media (prefers-reduced-motion:reduce){.fade,.sweep{animation:none}}</style>
+@media (prefers-reduced-motion:reduce){.fade{animation:none}}</style>
 <rect width="${W}" height="${H}" rx="18" fill="${C.ink}"/>
 <text class="m" x="${X}" y="62" font-size="11" fill="${C.red}">GitHub</text>
 <text class="d" x="${X}" y="118" font-size="56" fill="${C.paper}">Activity <tspan fill="${C.subtle}">&amp; stats</tspan></text>
 <text class="m" x="${W - X}" y="62" font-size="10.5" text-anchor="end" fill="${C.subtle}">Updated ${updated}</text>
 ${numberCells}
-<text class="m" x="${X}" y="${heatY - 18}" font-size="10.5" fill="${C.subtle}">Last 12 months</text>
-<g class="sweep" style="animation-delay:.4s">
-${heat}
-</g>
 <text class="m" x="${X}" y="${langY - 18}" font-size="10.5" fill="${C.subtle}">Top languages <tspan fill="${C.border}">·</tspan> public repos, by code size</text>
 <g class="fade" style="animation-delay:.7s">${bar}
 ${legend}</g>

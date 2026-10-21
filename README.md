@@ -2,33 +2,25 @@
   <img width="100%" src="assets/hero.svg" alt="Adriel Walintukan, AI-powered web and mobile developer based in Manado, Indonesia" />
 </a>
 
-<br />
+<br /><br />
 
-I'm Adriel, an Information Systems student at [Universitas Klabat](https://unklab.ac.id) (2023–2027). I build web and mobile apps, usually with an AI feature at the core, and I care about clean architecture and testing as much as how things look.
+<img width="100%" src="assets/about.svg" alt="About: I build web and mobile apps with an AI feature at the core, and I care about clean architecture and testing as much as how things look. Now: system development intern at LLDIKTI Wilayah XVI. Recently: Best Technical Excellence Award, Proxo Coris 2026. Open to internships and collaborations on web, mobile or AI projects. Information Systems, Universitas Klabat, 2023 to 2027." />
 
-- **Now** · System development intern at LLDIKTI Wilayah XVI
-- **Recently** · Best Technical Excellence Award, Proxo Coris 2026 (mobile app development)
-- **Open to** · internships and collaborations, on web, mobile or AI projects
+<br /><br />
 
-<br />
+<img width="100%" src="assets/work.svg" alt="Selected work" />
+<a href="https://github.com/adrielwalintukan/DailyBoostAI_MAD"><img width="100%" src="assets/work-1.svg" alt="01 DailyBoost AI: productivity app with goals, budgeting and an AI chat assistant. Open the code." /></a>
+<a href="https://github.com/adrielwalintukan/interviewAI"><img width="100%" src="assets/work-2.svg" alt="02 AI Interview Simulator: practice interviews with an AI interviewer. Open the code." /></a>
+<a href="https://adrielwalintukan.my.id/#projects"><img width="100%" src="assets/work-3.svg" alt="03 KostFinder UNKLAB: boarding house search and booking for students. Open the case on the portfolio." /></a>
+<a href="https://adrielwalintukan.my.id/#projects"><img width="100%" src="assets/work-more.svg" alt="More projects, with screenshots, on my portfolio" /></a>
 
-### Selected work
-
-| | Project | What it is | |
-|---|---|---|---|
-| `01` | **DailyBoost AI** | Mobile productivity app: goals, budgeting and an AI chat assistant | [Code ↗](https://github.com/adrielwalintukan/DailyBoostAI_MAD) |
-| `02` | **AI Interview Simulator** | Practice interviews with an AI interviewer that keeps the conversation going | [Code ↗](https://github.com/adrielwalintukan/interviewAI) |
-| `03` | **KostFinder UNKLAB** | Boarding house search and booking for students, with a price calculator | [Case ↗](https://adrielwalintukan.my.id/#projects) |
-
-More projects, with screenshots, on [my portfolio](https://adrielwalintukan.my.id/#projects).
-
-<br />
+<br /><br />
 
 <img width="100%" src="assets/stack.svg" alt="Skills. Backend and AI: Python, FastAPI, Google Gemini, REST API, Node.js, PostgreSQL, Laravel, Supabase, Convex, SQL. Frontend and Mobile: React Native, Expo, Next.js, TypeScript, JavaScript, Vite, Blade. Tools and Design: Git, GitHub, Figma, Software Testing." />
 
 <br /><br />
 
-<img width="100%" src="assets/stats.svg" alt="GitHub activity: contributions and commits in the last 12 months, pull requests, public repos, stars, a contribution heatmap and top languages" />
+<img width="100%" src="assets/stats.svg" alt="GitHub activity: contributions and commits in the last 12 months, pull requests, public repos, stars and top languages" />
 
 <br /><br />
 
@@ -36,9 +28,8 @@ More projects, with screenshots, on [my portfolio](https://adrielwalintukan.my.i
   <img width="100%" src="assets/marquee.svg" alt="Let's build something" />
 </a>
 
-<p>
-  <a href="https://adrielwalintukan.my.id"><b>Portfolio</b></a> &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/adriel-walintukan-383032332/"><b>LinkedIn</b></a> &nbsp;·&nbsp;
-  <a href="mailto:adrielwalintukan27@gmail.com"><b>adrielwalintukan27@gmail.com</b></a> &nbsp;·&nbsp;
-  Manado, Indonesia (WITA, UTC+8)
+<p align="center">
+  <a href="https://adrielwalintukan.my.id"><img width="32%" src="assets/btn-portfolio.svg" alt="Portfolio: adrielwalintukan.my.id" /></a>
+  <a href="https://www.linkedin.com/in/adriel-walintukan-383032332/"><img width="32%" src="assets/btn-linkedin.svg" alt="LinkedIn" /></a>
+  <a href="mailto:adrielwalintukan27@gmail.com"><img width="32%" src="assets/btn-email.svg" alt="Email: adrielwalintukan27@gmail.com" /></a>
 </p>
