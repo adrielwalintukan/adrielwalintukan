@@ -1,5 +1,5 @@
 <a href="https://adrielwalintukan.my.id">
-  <img width="100%" src="assets/hero.svg" alt="Adriel Walintukan, AI-powered web and mobile developer based in Manado, Indonesia" />
+  <img width="100%" src="assets/hero-ascii.svg" alt="Animated ASCII portrait of Adriel Walintukan turning from side to side. AI-powered web and mobile developer based in Manado, Indonesia." />
 </a>
 
 <p align="center">

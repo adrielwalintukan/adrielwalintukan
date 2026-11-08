@@ -22,3 +22,7 @@ The reel's black/green dashboard and the existing red/black identity were consid
 ## Implementation decisions
 
 Reuse existing SVG sections and embedded fonts instead of adding dependencies. Use the existing daily workflow. Keep the head image animated gently; do not promise the website's cursor-driven head tracking on GitHub.
+
+## Follow-up: ASCII head animation
+
+The user rejected the lightly moving bitmap portrait and specifically requested the portrait effect from the Instagram reference. Replace the bitmap in the hero with actual monospaced ASCII glyphs. Convert the portfolio's existing horizontal head poses to glyph grids and animate a continuous left/right turn. Keep the rest of the portfolio palette, layout, text and activity dashboard. Reduced motion must show one complete neutral ASCII portrait. No bitmap portrait may remain in the hero SVG.
