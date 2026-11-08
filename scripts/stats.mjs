@@ -1,8 +1,7 @@
-// Renders assets/stats.svg (GitHub activity) in the portfolio's style: numbers and
+// Renders assets/stats-summary.svg in the portfolio's style: numbers and
 // top languages. Run by .github/workflows/stats.yml every day.
 // usage: GITHUB_TOKEN=... node scripts/stats.mjs [login]
 import fs from 'node:fs'
-import { renderCalendar } from './activity.mjs'
 
 const LOGIN = process.argv[2] || 'adrielwalintukan'
 // repos that are not my own work (copied/imported projects) stay out of every number
@@ -23,7 +22,7 @@ const query = `query($login: String!) {
     }
     contributionsCollection {
       totalCommitContributions
-      contributionCalendar { totalContributions weeks { contributionDays { date weekday contributionCount } } }
+      contributionCalendar { totalContributions }
     }
   }
 }`
@@ -78,7 +77,7 @@ const numberCells = numbers
 
 // languages: one stacked bar + legend
 const SHADES = [C.red, '#75b1b5', C.paper, C.muted, '#9aa8ad', '#c4cacf']
-const langY = 562
+const langY = 356
 let acc = 0
 const bar = langs
   .map((l, i) => {
@@ -109,26 +108,18 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" wid
 .s{font-family:Geist;font-weight:500}
 .m{font-family:'JetBrains Mono';font-weight:500;text-transform:uppercase;letter-spacing:.12em}
 .fade{animation:fade .8s ease both}
-.day{animation:fade 1.3s ease both}
-.scan{animation:scan 9s ease-in-out infinite}
-@keyframes scan{0%,15%{transform:translateX(-150px);opacity:0}25%{opacity:.2}80%{opacity:.2}95%,100%{transform:translateX(1200px);opacity:0}}
 @keyframes fade{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
-@media (prefers-reduced-motion:reduce){.fade,.day,.scan{animation:none}.scan{display:none}}</style>
+@media (prefers-reduced-motion:reduce){.fade{animation:none}}</style>
 <rect width="${W}" height="${H}" rx="18" fill="${C.ink}"/>
 <text class="m" x="${X}" y="62" font-size="11" fill="${C.red}">GitHub</text>
 <text class="d" x="${X}" y="118" font-size="56" fill="${C.paper}">Activity <tspan fill="${C.subtle}">&amp; stats</tspan></text>
 <text class="m" x="${W - X}" y="62" font-size="10.5" text-anchor="end" fill="${C.subtle}">Updated ${updated}</text>
 ${numberCells}
-<text class="m" x="${X}" y="316" font-size="11" fill="${C.red}">A year of building</text>
-<text class="m" x="${W - X}" y="316" font-size="10" text-anchor="end" fill="${C.muted}">Actual daily contributions</text>
-<g transform="translate(${X} 356)">${renderCalendar(cal.weeks ?? [])}</g>
-<clipPath id="calendar-window"><rect x="${X}" y="352" width="${IW}" height="144" rx="4"/></clipPath>
-<g clip-path="url(#calendar-window)"><rect class="scan" x="0" y="352" width="120" height="144" fill="${C.red}" opacity=".1"/></g>
 <text class="m" x="${X}" y="${langY - 18}" font-size="10.5" fill="${C.subtle}">Top languages <tspan fill="${C.border}">·</tspan> public repos, by code size</text>
 <g class="fade" style="animation-delay:.7s">${bar}
 ${legend}</g>
 </svg>`
 
 fs.mkdirSync('assets', { recursive: true })
-fs.writeFileSync('assets/stats.svg', svg)
-console.log(`assets/stats.svg ${Math.round(svg.length / 1024)} KB · ${cal.totalContributions} contributions · ${langs.map((l) => l.name).join(', ')}`)
+fs.writeFileSync('assets/stats-summary.svg', svg)
+console.log(`assets/stats-summary.svg ${Math.round(svg.length / 1024)} KB · ${cal.totalContributions} contributions · ${langs.map((l) => l.name).join(', ')}`)

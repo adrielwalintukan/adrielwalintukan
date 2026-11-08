@@ -10,7 +10,7 @@
 
 <br />
 
-<img width="100%" src="assets/stats.svg" alt="GitHub activity dashboard: actual daily contributions over the last 12 months, commits, pull requests, public repos, stars and top languages. Updated daily." />
+<img width="100%" src="assets/stats-summary.svg" alt="GitHub statistics: contribution and commit totals over the last 12 months, pull requests, public repos, stars and top languages. Updated daily." />
 
 <br /><br />
 

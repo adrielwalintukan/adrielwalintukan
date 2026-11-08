@@ -26,3 +26,7 @@ Reuse existing SVG sections and embedded fonts instead of adding dependencies. U
 ## Follow-up: ASCII head animation
 
 The user rejected the lightly moving bitmap portrait and specifically requested the portrait effect from the Instagram reference. Replace the bitmap in the hero with actual monospaced ASCII glyphs. Convert the portfolio's existing horizontal head poses to glyph grids and animate a continuous left/right turn. Keep the rest of the portfolio palette, layout, text and activity dashboard. Reduced motion must show one complete neutral ASCII portrait. No bitmap portrait may remain in the hero SVG.
+
+## Follow-up: remove the duplicate calendar
+
+The user requested removal or replacement of the contribution heatmap because it duplicates GitHub's native calendar. Remove that block and its unused renderer, keep the summary totals and language bar, and compact the card vertically. The daily workflow must continue updating the compact card.
