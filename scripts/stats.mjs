@@ -2,14 +2,16 @@
 // top languages. Run by .github/workflows/stats.yml every day.
 // usage: GITHUB_TOKEN=... node scripts/stats.mjs [login]
 import fs from 'node:fs'
+import { renderCalendar } from './activity.mjs'
 
 const LOGIN = process.argv[2] || 'adrielwalintukan'
 // repos that are not my own work (copied/imported projects) stay out of every number
 const EXCLUDE = new Set(['hexstrike-ai'])
 const TOKEN = process.env.GITHUB_TOKEN
-if (!TOKEN) throw new Error('GITHUB_TOKEN is required')
+const snapshotIndex = process.argv.indexOf('--from-json')
+if (!TOKEN && snapshotIndex === -1) throw new Error('GITHUB_TOKEN is required')
 
-const C = { ink: '#07080a', paper: '#f2efea', red: '#ff3344', surface: '#17181c', border: '#222328', muted: '#a3a3a3', subtle: '#7a7a7a' }
+const C = { ink: '#eef2f3', paper: '#0b1226', red: '#1b7a80', surface: '#ffffff', border: '#b9c1c7', muted: '#4a5565', subtle: '#77828f' }
 
 const query = `query($login: String!) {
   user(login: $login) {
@@ -21,17 +23,17 @@ const query = `query($login: String!) {
     }
     contributionsCollection {
       totalCommitContributions
-      contributionCalendar { totalContributions }
+      contributionCalendar { totalContributions weeks { contributionDays { date weekday contributionCount } } }
     }
   }
 }`
-const res = await fetch('https://api.github.com/graphql', {
+const res = snapshotIndex === -1 ? await fetch('https://api.github.com/graphql', {
   method: 'POST',
   headers: { Authorization: `bearer ${TOKEN}`, 'Content-Type': 'application/json', 'User-Agent': LOGIN },
   body: JSON.stringify({ query, variables: { login: LOGIN } }),
-})
-const { data, errors } = await res.json()
-if (errors || !data?.user) throw new Error(`GitHub API: ${JSON.stringify(errors ?? res.status)}`)
+}) : null
+const { data, errors } = res ? await res.json() : JSON.parse(fs.readFileSync(process.argv[snapshotIndex + 1], 'utf8'))
+if (errors || !data?.user) throw new Error(`GitHub API: ${JSON.stringify(errors ?? res?.status)}`)
 const u = data.user
 const cal = u.contributionsCollection.contributionCalendar
 
@@ -45,18 +47,8 @@ const langs = ranked.slice(0, 5).map(([name, b]) => ({ name, pct: (b / total) * 
 const rest = 100 - langs.reduce((a, l) => a + l.pct, 0)
 if (rest > 0.5) langs.push({ name: 'Other', pct: rest })
 
-// ---- fonts (Google Fonts subset, embedded: README images can't load external files) ----
-const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36'
-const GLYPHS = Array.from({ length: 95 }, (_, i) => String.fromCharCode(32 + i)).join('') + '·'
-async function font(family, weight) {
-  const q = `https://fonts.googleapis.com/css2?family=${family.replace(/ /g, '+')}:wght@${weight}&text=${encodeURIComponent(GLYPHS)}`
-  const css = await (await fetch(q, { headers: { 'User-Agent': UA } })).text()
-  const url = css.match(/url\((https:[^)]+)\)/)?.[1]
-  if (!url) throw new Error(`no font url for ${family} ${weight}`)
-  const b64 = Buffer.from(await (await fetch(url)).arrayBuffer()).toString('base64')
-  return `@font-face{font-family:'${family}';font-weight:${weight};src:url(data:font/woff2;base64,${b64}) format('woff2')}`
-}
-const fonts = (await Promise.all([font('Big Shoulders Display', 900), font('Geist', 500), font('JetBrains Mono', 500)])).join('')
+// Embed the checked-in subset fonts: image-mode SVG cannot fetch web fonts.
+const fonts = fs.readFileSync(new URL('../assets/fonts.css', import.meta.url), 'utf8')
 
 // ---- layout ----
 const W = 1200, X = 48, IW = W - 2 * X
@@ -85,8 +77,8 @@ const numberCells = numbers
   .join('\n')
 
 // languages: one stacked bar + legend
-const SHADES = [C.red, '#ff8a94', C.paper, C.muted, '#55524d', '#34353b']
-const langY = numY + 124 + 82
+const SHADES = [C.red, '#75b1b5', C.paper, C.muted, '#9aa8ad', '#c4cacf']
+const langY = 562
 let acc = 0
 const bar = langs
   .map((l, i) => {
@@ -117,13 +109,21 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" wid
 .s{font-family:Geist;font-weight:500}
 .m{font-family:'JetBrains Mono';font-weight:500;text-transform:uppercase;letter-spacing:.12em}
 .fade{animation:fade .8s ease both}
+.day{animation:fade 1.3s ease both}
+.scan{animation:scan 9s ease-in-out infinite}
+@keyframes scan{0%,15%{transform:translateX(-150px);opacity:0}25%{opacity:.2}80%{opacity:.2}95%,100%{transform:translateX(1200px);opacity:0}}
 @keyframes fade{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
-@media (prefers-reduced-motion:reduce){.fade{animation:none}}</style>
+@media (prefers-reduced-motion:reduce){.fade,.day,.scan{animation:none}.scan{display:none}}</style>
 <rect width="${W}" height="${H}" rx="18" fill="${C.ink}"/>
 <text class="m" x="${X}" y="62" font-size="11" fill="${C.red}">GitHub</text>
 <text class="d" x="${X}" y="118" font-size="56" fill="${C.paper}">Activity <tspan fill="${C.subtle}">&amp; stats</tspan></text>
 <text class="m" x="${W - X}" y="62" font-size="10.5" text-anchor="end" fill="${C.subtle}">Updated ${updated}</text>
 ${numberCells}
+<text class="m" x="${X}" y="316" font-size="11" fill="${C.red}">A year of building</text>
+<text class="m" x="${W - X}" y="316" font-size="10" text-anchor="end" fill="${C.muted}">Actual daily contributions</text>
+<g transform="translate(${X} 356)">${renderCalendar(cal.weeks ?? [])}</g>
+<clipPath id="calendar-window"><rect x="${X}" y="352" width="${IW}" height="144" rx="4"/></clipPath>
+<g clip-path="url(#calendar-window)"><rect class="scan" x="0" y="352" width="120" height="144" fill="${C.red}" opacity=".1"/></g>
 <text class="m" x="${X}" y="${langY - 18}" font-size="10.5" fill="${C.subtle}">Top languages <tspan fill="${C.border}">·</tspan> public repos, by code size</text>
 <g class="fade" style="animation-delay:.7s">${bar}
 ${legend}</g>

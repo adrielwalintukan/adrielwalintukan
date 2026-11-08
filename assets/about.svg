@@ -9,26 +9,26 @@
 @keyframes rise{from{transform:translateY(105%)}to{transform:none}}
 @keyframes fade{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
 @media (prefers-reduced-motion:reduce){.rise,.fade{animation:none}}</style>
-<rect width="1200" height="430" rx="18" fill="#07080a"/>
-<text class="m" x="48" y="62" font-size="11" fill="#ff3344">About</text>
-<text class="m" x="1152" y="62" font-size="10.5" text-anchor="end" fill="#7a7a7a">Information Systems · Universitas Klabat · 2023–2027</text>
-<text class="d fade" x="48" y="132" font-size="50" fill="#f2efea" style="animation-delay:0.1s">I build web &amp; mobile apps with an <tspan fill="#ff3344">AI feature</tspan></text>
-<text class="d fade" x="48" y="190" font-size="50" fill="#f2efea" style="animation-delay:0.25s">at the core, and I care about <tspan fill="#ff3344">clean architecture</tspan></text>
-<text class="d fade" x="48" y="248" font-size="50" fill="#f2efea" style="animation-delay:0.4s">and testing as much as how things look.</text>
-<line x1="48" y1="296" x2="1152" y2="296" stroke="#222328"/>
+<rect width="1200" height="430" rx="18" fill="#0b1226"/>
+<text class="m" x="48" y="62" font-size="11" fill="#58bac0">About</text>
+<text class="m" x="1152" y="62" font-size="10.5" text-anchor="end" fill="#8d9baa">Information Systems · Universitas Klabat · 2023–2027</text>
+<text class="d fade" x="48" y="132" font-size="50" fill="#f8fafb" style="animation-delay:0.1s">I build web &amp; mobile apps with an <tspan fill="#58bac0">AI feature</tspan></text>
+<text class="d fade" x="48" y="190" font-size="50" fill="#f8fafb" style="animation-delay:0.25s">at the core, and I care about <tspan fill="#58bac0">clean architecture</tspan></text>
+<text class="d fade" x="48" y="248" font-size="50" fill="#f8fafb" style="animation-delay:0.4s">and testing as much as how things look.</text>
+<line x1="48" y1="296" x2="1152" y2="296" stroke="#26334b"/>
 <g transform="translate(48 0)"><g class="fade" style="animation-delay:0.55s">
-  <text class="m" y="336" font-size="11" fill="#ff3344">Now</text>
-  <text class="s5" y="366" font-size="17" fill="#f2efea">System development intern</text>
-  <text class="s" y="390" font-size="15" fill="#a3a3a3">at LLDIKTI Wilayah XVI</text>
+  <text class="m" y="336" font-size="11" fill="#58bac0">Now</text>
+  <text class="s5" y="366" font-size="17" fill="#f8fafb">System development intern</text>
+  <text class="s" y="390" font-size="15" fill="#bac3cd">at LLDIKTI Wilayah XVI</text>
 </g></g>
 <g transform="translate(424 0)"><g class="fade" style="animation-delay:0.65s">
-  <text class="m" y="336" font-size="11" fill="#ff3344">Recently</text>
-  <text class="s5" y="366" font-size="17" fill="#f2efea">Best Technical Excellence Award</text>
-  <text class="s" y="390" font-size="15" fill="#a3a3a3">Proxo Coris 2026, mobile apps</text>
+  <text class="m" y="336" font-size="11" fill="#58bac0">Recently</text>
+  <text class="s5" y="366" font-size="17" fill="#f8fafb">Best Technical Excellence Award</text>
+  <text class="s" y="390" font-size="15" fill="#bac3cd">Proxo Coris 2026, mobile apps</text>
 </g></g>
 <g transform="translate(800 0)"><g class="fade" style="animation-delay:0.75s">
-  <text class="m" y="336" font-size="11" fill="#ff3344">Open to</text>
-  <text class="s5" y="366" font-size="17" fill="#f2efea">Internships &amp; collaborations</text>
-  <text class="s" y="390" font-size="15" fill="#a3a3a3">on web, mobile or AI projects</text>
+  <text class="m" y="336" font-size="11" fill="#58bac0">Open to</text>
+  <text class="s5" y="366" font-size="17" fill="#f8fafb">Internships &amp; collaborations</text>
+  <text class="s" y="390" font-size="15" fill="#bac3cd">on web, mobile or AI projects</text>
 </g></g>
 </svg>

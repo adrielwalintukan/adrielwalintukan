@@ -9,8 +9,8 @@
 @keyframes rise{from{transform:translateY(105%)}to{transform:none}}
 @keyframes fade{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
 @media (prefers-reduced-motion:reduce){.rise,.fade{animation:none}}</style>
-<rect width="1200" height="140" rx="18" fill="#07080a"/>
-<text class="m" x="48" y="58" font-size="11" fill="#ff3344">Projects</text>
-<text class="d" x="48" y="112" font-size="56" fill="#f2efea">Selected <tspan fill="#7a7a7a">work</tspan></text>
-<text class="m" x="1152" y="112" font-size="10.5" text-anchor="end" fill="#7a7a7a">03 featured · click a card to open it</text>
+<rect width="1200" height="140" rx="18" fill="#eef2f3"/>
+<text class="m" x="48" y="58" font-size="11" fill="#1b7a80">Projects</text>
+<text class="d" x="48" y="112" font-size="56" fill="#0b1226">Selected <tspan fill="#77828f">work</tspan></text>
+<text class="m" x="1152" y="112" font-size="10.5" text-anchor="end" fill="#77828f">03 featured · click a card to open it</text>
 </svg>

@@ -10,14 +10,14 @@
 @keyframes fade{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
 @media (prefers-reduced-motion:reduce){.rise,.fade{animation:none}}</style>
 <g class="fade" style="animation-delay:0.2s">
-<rect x=".5" y=".5" width="1199" height="131" rx="16" fill="#17181c" stroke="#222328"/>
-<text class="m" x="40" y="58" font-size="11" fill="#ff3344">02</text>
-<text class="d" x="96" y="70" font-size="46" fill="#f2efea">AI Interview Simulator</text>
-<text class="m" x="96" y="100" font-size="10.5" fill="#7a7a7a">AI · Web app</text>
-<text class="s" x="640" y="60" font-size="15.5" fill="#a3a3a3">Practice interviews with an AI interviewer</text>
-<text class="s" x="640" y="84" font-size="15.5" fill="#a3a3a3">that keeps the conversation going.</text>
-<text class="m" x="1084" y="71" font-size="11" text-anchor="end" fill="#f2efea">Code</text>
-<rect x="1100" y="42" width="56" height="48" rx="10" fill="#ff3344"/>
-<path d="M1119 75L1137 57M1124.4 57H1137V69.6" fill="none" stroke="#07080a" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x=".5" y=".5" width="1199" height="131" rx="16" fill="#ffffff" stroke="#b9c1c7"/>
+<text class="m" x="40" y="58" font-size="11" fill="#1b7a80">02</text>
+<text class="d" x="96" y="70" font-size="46" fill="#0b1226">AI Interview Simulator</text>
+<text class="m" x="96" y="100" font-size="10.5" fill="#77828f">AI · Web app</text>
+<text class="s" x="640" y="60" font-size="15.5" fill="#4a5565">Practice interviews with an AI interviewer</text>
+<text class="s" x="640" y="84" font-size="15.5" fill="#4a5565">that keeps the conversation going.</text>
+<text class="m" x="1084" y="71" font-size="11" text-anchor="end" fill="#0b1226">Code</text>
+<rect x="1100" y="42" width="56" height="48" rx="10" fill="#1b7a80"/>
+<path d="M1119 75L1137 57M1124.4 57H1137V69.6" fill="none" stroke="#eef2f3" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 </svg>

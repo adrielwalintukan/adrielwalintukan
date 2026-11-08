@@ -9,28 +9,28 @@
 @keyframes rise{from{transform:translateY(105%)}to{transform:none}}
 @keyframes fade{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
 @media (prefers-reduced-motion:reduce){.rise,.fade{animation:none}}</style>
-<rect width="1200" height="490" rx="18" fill="#07080a"/>
-<text class="m" x="48" y="62" font-size="11" fill="#ff3344">Skills</text>
-<text class="d" x="48" y="118" font-size="56" fill="#f2efea">What <tspan fill="#7a7a7a">I do</tspan></text>
+<rect width="1200" height="490" rx="18" fill="#eef2f3"/>
+<text class="m" x="48" y="62" font-size="11" fill="#1b7a80">Skills</text>
+<text class="d" x="48" y="118" font-size="56" fill="#0b1226">What <tspan fill="#77828f">I do</tspan></text>
 <g class="fade" style="animation-delay:0.15s">
-  <rect x="48" y="150" width="352" height="300" rx="16" fill="#17181c" stroke="#222328"/>
-  <text class="m" x="76" y="188" font-size="11" fill="#ff3344">01 / 03</text>
-  <text class="d" x="76" y="232" font-size="34" fill="#f2efea">Backend &amp; AI</text>
-  <text class="s" x="76" y="260" font-size="13.5" fill="#a3a3a3">APIs, databases and AI features that</text><text class="s" x="76" y="279" font-size="13.5" fill="#a3a3a3">power real products.</text>
-  <text class="s5" x="76" y="320" font-size="14.5" fill="#f2efea"><tspan fill="#ff3344">· </tspan>Python</text><text class="s5" x="226" y="320" font-size="14.5" fill="#f2efea"><tspan fill="#ff3344">· </tspan>FastAPI</text><text class="s5" x="76" y="345" font-size="14.5" fill="#f2efea"><tspan fill="#ff3344">· </tspan>Google Gemini</text><text class="s5" x="226" y="345" font-size="14.5" fill="#f2efea"><tspan fill="#ff3344">· </tspan>REST API</text><text class="s5" x="76" y="370" font-size="14.5" fill="#f2efea"><tspan fill="#ff3344">· </tspan>Node.js</text><text class="s5" x="226" y="370" font-size="14.5" fill="#f2efea"><tspan fill="#ff3344">· </tspan>PostgreSQL</text><text class="s5" x="76" y="395" font-size="14.5" fill="#f2efea"><tspan fill="#ff3344">· </tspan>Laravel</text><text class="s5" x="226" y="395" font-size="14.5" fill="#f2efea"><tspan fill="#ff3344">· </tspan>Supabase</text><text class="s5" x="76" y="420" font-size="14.5" fill="#f2efea"><tspan fill="#ff3344">· </tspan>Convex</text><text class="s5" x="226" y="420" font-size="14.5" fill="#f2efea"><tspan fill="#ff3344">· </tspan>SQL</text>
+  <rect x="48" y="150" width="352" height="300" rx="16" fill="#ffffff" stroke="#b9c1c7"/>
+  <text class="m" x="76" y="188" font-size="11" fill="#1b7a80">01 / 03</text>
+  <text class="d" x="76" y="232" font-size="34" fill="#0b1226">Backend &amp; AI</text>
+  <text class="s" x="76" y="260" font-size="13.5" fill="#4a5565">APIs, databases and AI features that</text><text class="s" x="76" y="279" font-size="13.5" fill="#4a5565">power real products.</text>
+  <text class="s5" x="76" y="320" font-size="14.5" fill="#0b1226"><tspan fill="#1b7a80">· </tspan>Python</text><text class="s5" x="226" y="320" font-size="14.5" fill="#0b1226"><tspan fill="#1b7a80">· </tspan>FastAPI</text><text class="s5" x="76" y="345" font-size="14.5" fill="#0b1226"><tspan fill="#1b7a80">· </tspan>Google Gemini</text><text class="s5" x="226" y="345" font-size="14.5" fill="#0b1226"><tspan fill="#1b7a80">· </tspan>REST API</text><text class="s5" x="76" y="370" font-size="14.5" fill="#0b1226"><tspan fill="#1b7a80">· </tspan>Node.js</text><text class="s5" x="226" y="370" font-size="14.5" fill="#0b1226"><tspan fill="#1b7a80">· </tspan>PostgreSQL</text><text class="s5" x="76" y="395" font-size="14.5" fill="#0b1226"><tspan fill="#1b7a80">· </tspan>Laravel</text><text class="s5" x="226" y="395" font-size="14.5" fill="#0b1226"><tspan fill="#1b7a80">· </tspan>Supabase</text><text class="s5" x="76" y="420" font-size="14.5" fill="#0b1226"><tspan fill="#1b7a80">· </tspan>Convex</text><text class="s5" x="226" y="420" font-size="14.5" fill="#0b1226"><tspan fill="#1b7a80">· </tspan>SQL</text>
 </g>
 <g class="fade" style="animation-delay:0.27s">
-  <rect x="424" y="150" width="352" height="300" rx="16" fill="#17181c" stroke="#222328"/>
-  <text class="m" x="452" y="188" font-size="11" fill="#ff3344">02 / 03</text>
-  <text class="d" x="452" y="232" font-size="34" fill="#f2efea">Frontend &amp; Mobile</text>
-  <text class="s" x="452" y="260" font-size="13.5" fill="#a3a3a3">Fast, responsive interfaces for the web</text><text class="s" x="452" y="279" font-size="13.5" fill="#a3a3a3">and mobile.</text>
-  <text class="s5" x="452" y="320" font-size="14.5" fill="#f2efea"><tspan fill="#ff3344">· </tspan>React Native</text><text class="s5" x="602" y="320" font-size="14.5" fill="#f2efea"><tspan fill="#ff3344">· </tspan>Expo</text><text class="s5" x="452" y="345" font-size="14.5" fill="#f2efea"><tspan fill="#ff3344">· </tspan>Next.js</text><text class="s5" x="602" y="345" font-size="14.5" fill="#f2efea"><tspan fill="#ff3344">· </tspan>TypeScript</text><text class="s5" x="452" y="370" font-size="14.5" fill="#f2efea"><tspan fill="#ff3344">· </tspan>JavaScript</text><text class="s5" x="602" y="370" font-size="14.5" fill="#f2efea"><tspan fill="#ff3344">· </tspan>Vite</text><text class="s5" x="452" y="395" font-size="14.5" fill="#f2efea"><tspan fill="#ff3344">· </tspan>Blade</text>
+  <rect x="424" y="150" width="352" height="300" rx="16" fill="#ffffff" stroke="#b9c1c7"/>
+  <text class="m" x="452" y="188" font-size="11" fill="#1b7a80">02 / 03</text>
+  <text class="d" x="452" y="232" font-size="34" fill="#0b1226">Frontend &amp; Mobile</text>
+  <text class="s" x="452" y="260" font-size="13.5" fill="#4a5565">Fast, responsive interfaces for the web</text><text class="s" x="452" y="279" font-size="13.5" fill="#4a5565">and mobile.</text>
+  <text class="s5" x="452" y="320" font-size="14.5" fill="#0b1226"><tspan fill="#1b7a80">· </tspan>React Native</text><text class="s5" x="602" y="320" font-size="14.5" fill="#0b1226"><tspan fill="#1b7a80">· </tspan>Expo</text><text class="s5" x="452" y="345" font-size="14.5" fill="#0b1226"><tspan fill="#1b7a80">· </tspan>Next.js</text><text class="s5" x="602" y="345" font-size="14.5" fill="#0b1226"><tspan fill="#1b7a80">· </tspan>TypeScript</text><text class="s5" x="452" y="370" font-size="14.5" fill="#0b1226"><tspan fill="#1b7a80">· </tspan>JavaScript</text><text class="s5" x="602" y="370" font-size="14.5" fill="#0b1226"><tspan fill="#1b7a80">· </tspan>Vite</text><text class="s5" x="452" y="395" font-size="14.5" fill="#0b1226"><tspan fill="#1b7a80">· </tspan>Blade</text>
 </g>
 <g class="fade" style="animation-delay:0.39s">
-  <rect x="800" y="150" width="352" height="300" rx="16" fill="#17181c" stroke="#222328"/>
-  <text class="m" x="828" y="188" font-size="11" fill="#ff3344">03 / 03</text>
-  <text class="d" x="828" y="232" font-size="34" fill="#f2efea">Tools &amp; Design</text>
-  <text class="s" x="828" y="260" font-size="13.5" fill="#a3a3a3">Version control, UI design and testing</text><text class="s" x="828" y="279" font-size="13.5" fill="#a3a3a3">to ship with confidence.</text>
-  <text class="s5" x="828" y="320" font-size="14.5" fill="#f2efea"><tspan fill="#ff3344">· </tspan>Git</text><text class="s5" x="978" y="320" font-size="14.5" fill="#f2efea"><tspan fill="#ff3344">· </tspan>GitHub</text><text class="s5" x="828" y="345" font-size="14.5" fill="#f2efea"><tspan fill="#ff3344">· </tspan>Figma</text><text class="s5" x="978" y="345" font-size="14.5" fill="#f2efea"><tspan fill="#ff3344">· </tspan>Software Testing</text>
+  <rect x="800" y="150" width="352" height="300" rx="16" fill="#ffffff" stroke="#b9c1c7"/>
+  <text class="m" x="828" y="188" font-size="11" fill="#1b7a80">03 / 03</text>
+  <text class="d" x="828" y="232" font-size="34" fill="#0b1226">Tools &amp; Design</text>
+  <text class="s" x="828" y="260" font-size="13.5" fill="#4a5565">Version control, UI design and testing</text><text class="s" x="828" y="279" font-size="13.5" fill="#4a5565">to ship with confidence.</text>
+  <text class="s5" x="828" y="320" font-size="14.5" fill="#0b1226"><tspan fill="#1b7a80">· </tspan>Git</text><text class="s5" x="978" y="320" font-size="14.5" fill="#0b1226"><tspan fill="#1b7a80">· </tspan>GitHub</text><text class="s5" x="828" y="345" font-size="14.5" fill="#0b1226"><tspan fill="#1b7a80">· </tspan>Figma</text><text class="s5" x="978" y="345" font-size="14.5" fill="#0b1226"><tspan fill="#1b7a80">· </tspan>Software Testing</text>
 </g>
 </svg>

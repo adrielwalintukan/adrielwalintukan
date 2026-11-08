@@ -9,9 +9,9 @@
 @keyframes rise{from{transform:translateY(105%)}to{transform:none}}
 @keyframes fade{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
 @media (prefers-reduced-motion:reduce){.rise,.fade{animation:none}}</style>
-<rect x=".5" y=".5" width="383" height="95" rx="14" fill="#07080a" stroke="#34353b"/>
-<text class="d" x="28" y="50" font-size="30" fill="#f2efea">Email</text>
-<text class="s" x="28" y="74" font-size="13" fill="#7a7a7a">adrielwalintukan27@gmail.com</text>
-<rect x="312" y="24" width="48" height="48" rx="10" fill="#ff3344"/>
-<path d="M328 56L344 40M332.8 40H344V51.2" fill="none" stroke="#07080a" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x=".5" y=".5" width="383" height="95" rx="14" fill="#eef2f3" stroke="#34353b"/>
+<text class="d" x="28" y="50" font-size="30" fill="#0b1226">Email</text>
+<text class="s" x="28" y="74" font-size="13" fill="#77828f">adrielwalintukan27@gmail.com</text>
+<rect x="312" y="24" width="48" height="48" rx="10" fill="#1b7a80"/>
+<path d="M328 56L344 40M332.8 40H344V51.2" fill="none" stroke="#eef2f3" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

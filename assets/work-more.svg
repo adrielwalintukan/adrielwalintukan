@@ -9,7 +9,7 @@
 @keyframes rise{from{transform:translateY(105%)}to{transform:none}}
 @keyframes fade{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
 @media (prefers-reduced-motion:reduce){.rise,.fade{animation:none}}</style>
-<rect x=".5" y=".5" width="1199" height="83" rx="16" fill="none" stroke="#ff3344" stroke-dasharray="6 6"/>
-<text class="d" x="40" y="54" font-size="28" fill="#ff3344">More projects, with screenshots, on my portfolio</text>
-<path d="M1134 50L1154 30M1140 30H1154V44" fill="none" stroke="#ff3344" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x=".5" y=".5" width="1199" height="83" rx="16" fill="none" stroke="#1b7a80" stroke-dasharray="6 6"/>
+<text class="d" x="40" y="54" font-size="28" fill="#1b7a80">More projects, with screenshots, on my portfolio</text>
+<path d="M1134 50L1154 30M1140 30H1154V44" fill="none" stroke="#1b7a80" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
