@@ -19,7 +19,7 @@ No new dependencies or fabricated activity. Embed fonts/media in SVG. Respect re
 - [x] Recolor existing sections and create the animated portfolio-themed hero with the existing 3D character.
 - [x] Update README order and add expandable background/skills sections.
 - [x] Render through GitHub's Markdown API, inspect desktop/mobile image rendering and reduced motion, and check all assets/links.
-- [ ] Commit and publish the authorized profile update through GitHub; verify the live README and daily workflow.
+- [x] Commit and publish the authorized profile update through GitHub; verify the live README and daily workflow.
 
 ## Review focus
 
