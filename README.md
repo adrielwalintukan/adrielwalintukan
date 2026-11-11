@@ -47,8 +47,6 @@ I'm an **Information Systems student at Universitas Klabat (2023–2027)**, base
 
 <br /><br />
 
-<img width="100%" src="assets/stack.svg" alt="Skills. Backend and AI: Python, FastAPI, Google Gemini, REST API, Node.js, PostgreSQL, Laravel, Supabase, Convex, SQL. Frontend and Mobile: React Native, Expo, Next.js, TypeScript, JavaScript, Vite, Blade. Tools and Design: Git, GitHub, Figma, Software Testing." />
-
 <details>
 <summary><b>Tech stack / explore the tools I use</b></summary>
 
