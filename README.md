@@ -5,7 +5,6 @@
 <br />
 
 <p align="center">
-  <a href="https://adrielwalintukan.my.id"><img width="32%" src="assets/btn-portfolio.svg" alt="Portfolio: adrielwalintukan.my.id" /></a>
   <a href="https://www.linkedin.com/in/adriel-walintukan-383032332/"><img width="32%" src="assets/btn-linkedin.svg" alt="LinkedIn" /></a>
   <a href="mailto:adrielwalintukan27@gmail.com"><img width="32%" src="assets/btn-email.svg" alt="Email: adrielwalintukan27@gmail.com" /></a>
 </p>
