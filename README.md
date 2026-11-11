@@ -27,20 +27,14 @@ I'm an **Information Systems student at Universitas Klabat (2023–2027)**, base
 [View my resume](https://adrielwalintukan.my.id/Resume_Adriel_Walintukan.pdf) · [Let's talk](mailto:adrielwalintukan27@gmail.com)
 
 </details>
-
 <br /><br />
-
 <a href="https://adrielwalintukan.my.id/#projects"><img width="100%" src="assets/work-more.svg" alt="Projects with video/screenshots, on my portfolio" /></a>
-
 <br /><br />
-
 <details>
 <summary><b>Tech stack / explore the tools I use</b></summary>
-
 | Area | Technologies |
 | --- | --- |
 | Backend &amp; AI | Python, FastAPI, Google Gemini, REST API, Node.js, PostgreSQL, Laravel, Supabase, Convex, SQL |
 | Frontend &amp; mobile | React Native, Expo, Next.js, TypeScript, JavaScript, Vite, Blade |
 | Tools &amp; design | Git, GitHub, Figma, Software Testing |
-
 </details>
