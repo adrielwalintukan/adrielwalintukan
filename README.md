@@ -4,13 +4,6 @@
 
 <br />
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/adriel-walintukan-383032332/"><img width="32%" src="assets/btn-linkedin.svg" alt="LinkedIn" /></a>
-  <a href="mailto:adrielwalintukan27@gmail.com"><img width="32%" src="assets/btn-email.svg" alt="Email: adrielwalintukan27@gmail.com" /></a>
-</p>
-
-<br />
-
 <summary><b>About me / background &amp; availability</b></summary>
 
 I'm an **Information Systems student at Universitas Klabat (2023–2027)**, based in **Manado, Indonesia**.
