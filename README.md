@@ -2,6 +2,8 @@
   <img width="100%" src="assets/hero-ascii.svg" alt="Animated ASCII portrait of Adriel Walintukan turning from side to side. AI-powered web and mobile developer based in Manado, Indonesia." />
 </a>
 
+<br />
+
 <p align="center">
   <a href="https://adrielwalintukan.my.id"><img width="32%" src="assets/btn-portfolio.svg" alt="Portfolio: adrielwalintukan.my.id" /></a>
   <a href="https://www.linkedin.com/in/adriel-walintukan-383032332/"><img width="32%" src="assets/btn-linkedin.svg" alt="LinkedIn" /></a>
