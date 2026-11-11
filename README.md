@@ -14,8 +14,6 @@
 
 <br /><br />
 
-<img width="100%" src="assets/about.svg" alt="About: I build web and mobile apps with an AI feature at the core, and I care about clean architecture and testing as much as how things look. Now: system development intern at LLDIKTI Wilayah XVI. Recently: Best Technical Excellence Award, Proxo Coris 2026. Open to internships and collaborations on web, mobile or AI projects. Information Systems, Universitas Klabat, 2023 to 2027." />
-
 <details>
 <summary><b>About me / background &amp; availability</b></summary>
 
