@@ -4,8 +4,7 @@
 
 <br />
 
-
-<summary><b>About me / background &amp; availability</b></summary>
+### About me / background &amp; availability
 
 I'm an **Information Systems student at Universitas Klabat (2023–2027)**, based in **Manado, Indonesia**.
 
@@ -19,6 +18,10 @@ I'm an **Information Systems student at Universitas Klabat (2023–2027)**, base
 <br />
 
 <a href="https://adrielwalintukan.my.id/#projects"><img width="100%" src="assets/work-more.svg" alt="Projects with video/screenshots, on my portfolio" /></a>
+
+<br />
+
+<img width="100%" src="assets/stack.svg" alt="Tech stack. Backend and AI: Python, FastAPI, Google Gemini, REST API, Node.js, PostgreSQL, Laravel, Supabase, Convex, SQL. Frontend and mobile: React Native, Expo, Next.js, TypeScript, JavaScript, Vite, Blade. Tools and design: Git, GitHub, Figma, software testing." />
 
 <br />
 
