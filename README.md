@@ -12,9 +12,8 @@
 
 <img width="100%" src="assets/stats-summary.svg" alt="GitHub statistics: contribution and commit totals over the last 12 months, pull requests, public repos, stars and top languages. Updated daily." />
 
-<br /><br />
+<br />
 
-<details>
 <summary><b>About me / background &amp; availability</b></summary>
 
 I'm an **Information Systems student at Universitas Klabat (2023–2027)**, based in **Manado, Indonesia**.
@@ -26,9 +25,6 @@ I'm an **Information Systems student at Universitas Klabat (2023–2027)**, base
 
 [View my resume](https://adrielwalintukan.my.id/Resume_Adriel_Walintukan.pdf) · [Let's talk](mailto:adrielwalintukan27@gmail.com)
 
-</details>
-
 <br />
+
 <a href="https://adrielwalintukan.my.id/#projects"><img width="100%" src="assets/work-more.svg" alt="Projects with video/screenshots, on my portfolio" /></a>
-<br /><br />
-<details>
