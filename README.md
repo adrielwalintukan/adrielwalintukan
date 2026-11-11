@@ -21,7 +21,9 @@ I'm an **Information Systems student at Universitas Klabat (2023–2027)**, base
 
 <br />
 
-<img width="100%" src="assets/stack.svg" alt="Tech stack. Backend and AI: Python, FastAPI, Google Gemini, REST API, Node.js, PostgreSQL, Laravel, Supabase, Convex, SQL. Frontend and mobile: React Native, Expo, Next.js, TypeScript, JavaScript, Vite, Blade. Tools and design: Git, GitHub, Figma, software testing." />
+### Stack
+
+<kbd>Python</kbd> <kbd>FastAPI</kbd> <kbd>Google Gemini</kbd> <kbd>REST API</kbd> <kbd>Node.js</kbd> <kbd>PostgreSQL</kbd> <kbd>Laravel</kbd> <kbd>Supabase</kbd> <kbd>Convex</kbd> <kbd>SQL</kbd> <kbd>JavaScript</kbd> <kbd>TypeScript</kbd> <kbd>React Native</kbd> <kbd>Expo</kbd> <kbd>Next.js</kbd> <kbd>Vite</kbd> <kbd>Blade</kbd> <kbd>Git</kbd> <kbd>GitHub</kbd> <kbd>Figma</kbd> <kbd>Software testing</kbd>
 
 <br />
 
